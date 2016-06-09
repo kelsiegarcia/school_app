@@ -1,0 +1,27 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/Athena/Desktop/school_app/app/models/school.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        4,
+        4,
+        2,
+        2,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1465428653
+  }
+}
