@@ -1,9 +1,11 @@
 class CoursesController < ApplicationController
+  before_action :course, except: [ :new, :index, :create]
   def index
     @courses = Course.all
   end
 
   def show
+    @course = Course.find(params[:id])
   end
 
   def new
@@ -17,9 +19,11 @@ class CoursesController < ApplicationController
       redirect_to course_path(@course)
     else
       render :new
+    end
   end
 
   def edit
+     @course = Course.find(params[:id])
   end
 
   def update
@@ -42,6 +46,10 @@ class CoursesController < ApplicationController
   def course
     @course = Course.find(params[:id])
   end
+
+  def school
+       @school = School.find(params[:id])
+    end
 
   def course_params
     params.require(:course).permit(:name, :size, :subject)

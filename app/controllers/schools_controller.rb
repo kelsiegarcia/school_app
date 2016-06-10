@@ -1,5 +1,6 @@
 class SchoolsController < ApplicationController
   before_action :school, except: [:index, :new, :create]
+  
   def index
     @schools = School.all
   end

@@ -4,6 +4,7 @@ class CreateCourses < ActiveRecord::Migration
       t.string :name
       t.string :size
       t.string :subject
+      t.belongs_to :school
 
       t.timestamps null: false
     end

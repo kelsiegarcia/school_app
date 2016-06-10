@@ -1,27 +1,68 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Athena/Desktop/school_app/app/models/school.rb": [
+      "/Users/Athena/Desktop/school_app/app/controllers/schools_controller.rb": [
         1,
         1,
         null,
         1,
+        3,
+        null,
+        null,
         1,
         null,
         null,
         1,
-        4,
-        4,
+        3,
+        null,
+        null,
+        1,
+        1,
+        1,
+        0,
+        0,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
         2,
         2,
-        1,
+        2,
+        null,
+        0,
+        null,
+        null,
         null,
         1,
+        2,
+        2,
+        2,
         null,
         null,
+        null,
+        1,
+        1,
+        10,
+        null,
+        null,
+        1,
+        3,
+        null,
+        null
+      ],
+      "/Users/Athena/Desktop/school_app/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
         null
       ]
     },
-    "timestamp": 1465428653
+    "timestamp": 1465526465
   }
 }
